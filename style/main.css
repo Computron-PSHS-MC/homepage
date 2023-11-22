@@ -96,7 +96,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   margin:0;
-  background-color:var(--body-bg-plain);
+  background-color:var(--color-bg);
   background-image:url("../resources/img/abstract_bg_blobs-2.png");
   background-position:center;
   background-size:100%;
@@ -199,32 +199,44 @@ SPECIFIC CLASSES
   display: inline-block;
   border: solid #FCA101;
   border-width: 0 5px 5px 0;
-  padding: 5px;
+  padding: 10px;
   rotate: 225deg;
+  position: absolute;
+  top: 2%; 
+  left: 50%; 
 }
 
 .arrow-left{
   display: inline-block;
   border: solid #FCA101;
   border-width: 0 5px 5px 0;
-  padding: 5px;
+  padding: 10px;
   rotate: 135deg;
+  position: absolute;
+  top: 50%; 
+  left: 2%; 
 }
 
 .arrow-right{
   display: inline-block;
   border: solid #FCA101;
   border-width: 0 5px 5px 0;
-  padding: 5px;
+  padding: 10px;
   rotate: 315deg;
+  position: absolute; 
+  top: 50%; 
+  right: 2%; 
 }
 
 .arrow-bottom{
   display: inline-block;
   border: solid #FCA101;
   border-width: 0 5px 5px 0;
-  padding: 5px;
+  padding: 10px;
   rotate: 45deg;
+  position: absolute; 
+  bottom: 2%; 
+  left: 50%;
 }
 
 .hamburger-menu-img {
